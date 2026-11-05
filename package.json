@@ -1,0 +1,29 @@
+{
+  "name": "workhive",
+  "version": "1.0.0",
+  "private": true,
+  "description": "WorkHive – Freelancing & Project Collaboration Platform",
+  "scripts": {
+    "server": "npm run dev --prefix server",
+    "client": "npm run dev --prefix client",
+    "test:db": "npm run test:db --prefix server",
+    "test:auth": "node server/src/test-auth-api.js",
+    "test:http-auth": "node server/src/test-http-auth.js",
+    "test:profile": "node server/src/test-freelancer-profile.js",
+    "test:module2": "node server/src/test-module2-api.js",
+    "test:verify-module2": "node server/src/verify-module2-comprehensive.js",
+    "test:module3": "node server/src/test-module3-api.js",
+    "test:phase1": "node server/src/test-phase1-enhancements.js",
+    "test:phase2": "node server/src/test-phase2-marketplace.js",
+    "install:all": "npm install --prefix server && npm install --prefix client",
+    "build:client": "npm run build --prefix client"
+  },
+  "keywords": [
+    "mern",
+    "workhive",
+    "freelancing",
+    "collaboration"
+  ],
+  "author": "",
+  "license": "ISC"
+}
